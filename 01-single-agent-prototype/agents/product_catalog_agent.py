@@ -143,7 +143,7 @@ class ProductCatalogAgent:
 
     def __init__(
         self,
-        region: str = 'us-west-2',
+        region: str = 'us-east-1',
         user_session: Optional[UserSession] = None,
         behavior_config: Optional[AgentBehaviorConfig] = None,
     ):
@@ -295,7 +295,7 @@ class ProductCatalogAgent:
 # =============================================================================
 
 def create_product_catalog_agent(
-    region: str = 'us-west-2',
+    region: str = 'us-east-1',
     user_session: Optional[UserSession] = None
 ) -> ProductCatalogAgent:
     """
